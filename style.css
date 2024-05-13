@@ -615,9 +615,24 @@ footer nav a:hover {
         margin-left: 140px;
     }
 
+    section div.content {
+        top: 50%;
+        left: 30px;
+        max-width: 200px;
+
+    }
+    section div.content h2 {
+        font: 35px/35px DD-DIN-Bold, Arial, Verdana, sans-serif;
+    }
+
+    .section div.content h3 {
+        font: 12px/28px D-DIN-Regular, Arial, Verdana, sans-serif;
+    }
+
+
     #scroll-down a span {
 
-        top: 93%;
+        top: 90%;
         width: 20px;
         height: 20px;
 
@@ -645,9 +660,14 @@ footer nav a:hover {
     header a.logo {
         margin-left: 60px;
     }
+    section div.content {
+        top: 60%;
+        left: 30px;
+        max-width: 200px;
+
+    }
     section div.content h2 {
-        
-        font: 26px/35px DD-DIN-Bold, Arial, Verdana, sans-serif;
+        font: 35px/35px DD-DIN-Bold, Arial, Verdana, sans-serif;
     }
 
     .section div.content h3 {
@@ -696,9 +716,15 @@ footer nav a:hover {
         font-size: 14px;
     }
 
+    section div.content {
+        top: 70%;
+        left: 20px;
+        max-width: 200px;
+
+    }
 
     section div.content h2 {
-        font: 35px/35px DD-DIN-Bold, Arial, Verdana, sans-serif;
+        font: 26px/35px DD-DIN-Bold, Arial, Verdana, sans-serif;
     }
 
     .section div.content h3 {
