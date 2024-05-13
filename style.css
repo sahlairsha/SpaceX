@@ -24,6 +24,7 @@ body {
     height: 100%;
     background-color: black;
     color: #fff;
+    overflow-x: hidden;
     font-family: D-DIN-Bold, Arial, Verdana, sans-serif;
 }
 
@@ -603,6 +604,9 @@ footer nav a:hover {
 }
 
 @media(max-width:564px) {
+    .head-section{
+        overflow-x: hidden;
+    }
     .header svg {
         margin: 0 auto;
     }
@@ -631,6 +635,9 @@ footer nav a:hover {
 
 
 @media(max-width:434px) {
+    .head-section{
+        overflow-x: hidden;
+    }
     .header svg {
         margin: 0 auto;
     }
@@ -638,6 +645,15 @@ footer nav a:hover {
     header a.logo {
         margin-left: 60px;
     }
+    section div.content h2 {
+        
+        font: 26px/35px DD-DIN-Bold, Arial, Verdana, sans-serif;
+    }
+
+    .section div.content h3 {
+        font: 12px/28px D-DIN-Regular, Arial, Verdana, sans-serif;
+    }
+
 
     .section-1 {
         background: url(images/Eva_Suit_Mobile.jpg);
@@ -659,10 +675,12 @@ footer nav a:hover {
 }
 
 @media(max-width:366px) {
+    .head-section{
+        overflow-x: hidden;
+    }
     .header svg {
         width: 120px;
         margin: 0 auto;
-        overflow-X: hidden;
     }
 
     header a.logo {
@@ -678,15 +696,9 @@ footer nav a:hover {
         font-size: 14px;
     }
 
-    section div.content {
-        top: 70%;
-        left: 20px;
-        max-width: 200px;
-
-    }
 
     section div.content h2 {
-        font: 26px/35px DD-DIN-Bold, Arial, Verdana, sans-serif;
+        font: 35px/35px DD-DIN-Bold, Arial, Verdana, sans-serif;
     }
 
     .section div.content h3 {
